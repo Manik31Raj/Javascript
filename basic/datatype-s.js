@@ -26,3 +26,22 @@ const myfunction= function(){
     console.log("Hello");}
 
     
+
+// stack (primitive) and heap(non-primitive)
+
+let myhome ="absccdghcdg.com"
+let anothername=myhome
+anothername ="dsgxjghd"
+console.log(myhome);
+console.log(anothername);
+
+let userone = {
+    email: "abc.gamil.com",
+    upi: "3565465465@ybl"
+}
+let usertwo = userone 
+usertwo.email="cdf@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
